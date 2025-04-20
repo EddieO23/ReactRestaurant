@@ -10,13 +10,13 @@ function Home({ bodyClass }) {
   return (
     <div className="h-screen flex">
       {/* Left side: Navbar or other content */}
-      <div className="flex-1 flex flex-col">
+      <div className="w-1/3 flex flex-col">
         <Navbar />
         {/* You can add more content here if needed */}
       </div>
 
       {/* Right side: Pizza image */}
-      <div className="w-1/2 h-full">
+      <div className="w-2/3 h-full">
         <img
           src={pizza2}
           alt="Pizza"
