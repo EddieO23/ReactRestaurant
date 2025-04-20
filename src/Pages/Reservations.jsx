@@ -2,7 +2,7 @@ import React from 'react'
 import {Link } from 'react-router-dom'
 
 
-function DineIn() {
+function Reservations() {
   return (
     <div className='font-bold text-3xl '>
      <p className='text-blue-400'>Welcome to Reviews page!</p>
@@ -11,4 +11,4 @@ function DineIn() {
   )
 }
 
-export default DineIn
+export default Reservations
